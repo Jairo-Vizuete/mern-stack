@@ -1,0 +1,9 @@
+Docker
+CREATE CONTAINER: docker --name my-mysql -e MYSQL_ROOT_PASSWORD=admin123 -e MYSQL_DATABASE=tasksdb -p 3306:3306 -d mysql
+EXECUTE DOCKER: docker exec -it mymysql bash
+
+Mysql
+mysql -u root -p
+show databases;
+use [database table]
+describe [table]
